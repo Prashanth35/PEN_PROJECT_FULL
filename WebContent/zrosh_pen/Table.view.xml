@@ -1,0 +1,39 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zrosh_pen.Table" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		<Table id="idTable">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="Payment History Details" level="H2"/>
+			</Toolbar>
+		</headerToolbar>
+		
+		<columns>
+		    <Column>
+		    <Text text="Month" />
+		    
+		    </Column>
+		    <Column>
+		    <Text text="Amount Paid" />
+		    
+		    </Column>
+		    <Column>
+		    <Text text="Date" />
+		    </Column>
+		    <Column>
+		    <Text text="Final Status" />
+		    </Column>
+		    <Column>
+		    <Text text="Total Intrest" />
+		    </Column>
+		    <Column>
+		    <Text text="Loan Eligibility" />
+		    </Column>
+		
+		</columns>
+		
+		</Table>
+		</content>
+	</Page>
+</core:View>

@@ -1,0 +1,178 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:sf = "sap.ui.layout.form" xmlns:u = "sap.ui.unified" xmlns:l="sap.ui.layout" xmlns:tnt="sap.tnt"
+		controllerName="zrosh_pen.Registration" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title = "Private Employee Network">
+			<!-- <headerContent>
+			<Image src="images/Pen.png" tooltip="Share" />
+		</headerContent> -->
+	<content>
+	<!-- <Title showHeader= "false" text = "Private Employee Network" class="title"/> -->
+	<tnt:ToolHeader>
+	<Button text = "dispaly"/>
+	   <ToolbarSpacer/>
+	   <Button text = "logo"/>
+	   <ToolbarSpacer/>
+	      <Button text = "About us" />
+	      <Button text = "Contact us" press = "getContact" />
+	</tnt:ToolHeader>
+	<Panel  id = "idPanel1" 
+	        expanded = "true"  expandable = "true" 
+	        expandAnimation = "false" headerText = "Personal Details" 
+	        expand = "getClose1">
+	<sf:SimpleForm 	id="idSF"
+			editable="false"
+			layout="ResponsiveGridLayout"			
+			labelSpanXL="4"			labelSpanL="4"
+			labelSpanM="4"			labelSpanS="12"
+			adjustLabelSpan="false"	emptySpanXL="0"
+			emptySpanL="3"          emptySpanM="3"
+			emptySpanS="3"          columnsXL="3"
+			columnsL="2"            columnsM="2"
+			singleContainerFullSize="false" >
+	<core:Title/>
+	<Label text = "First Name" />
+	<Input text = "type" placeholder = "Enter First Name" required = "true" />
+	<Label text = "Last Name" />
+	<Input text = "type" placeholder = "Enter Last Name" required = "true" />
+	<Label text = "Father Name"/>
+
+	<Input text = "type" required = "true" placeholder = "Enter Father Name" />
+	
+	<Label text = "Gender"/>
+	<HBox>
+	<RadioButton  groupName= "B" text = "Male"/>
+	<RadioButton  groupName= "B"  text = "FeMale"/>
+	</HBox>
+	<Label text = "Marital Status"/>
+	<HBox>
+	<RadioButton groupName= "A"  text = "Single" />
+	<RadioButton groupName= "A"  text = "Married" />
+	</HBox>
+	
+	<core:Title/>
+	<Label text = "Mobile Number"/>
+	<Input type = "Number"  placeholder = "Enter Mobile Number" required = "true" />
+	<Label text = "Date of Birth"/>
+	<DatePicker displayFormat = "dd/MM/YYYY"/>
+	<Label text = "Email Id"/>
+	<Input text= "type" placeholder = "Enter Email Id"/>
+	<Label text = "Password"/>
+	<Input type = "Password" placeholder = "Enter Password" />
+	<Label text = "Confirm Password"  />
+	<Input type = "Password" placeholder = "Enter Confirm Password" />
+	</sf:SimpleForm>
+	</Panel>
+	<Panel id = "idPanel2" expandable = "true" headerText = "Address Details" expand = "getClose2">
+	<VBox class="sapUiSmallMargin">
+		<sf:SimpleForm  layout="ResponsiveGridLayout"
+		editable="false"
+						
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="4"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="3"
+			emptySpanM="3"
+			emptySpanS="3"
+			columnsXL="3"
+			columnsL="2"
+			columnsM="2"
+			singleContainerFullSize="false">
+			
+		<core:Title text="Permanent Address" level="H5" titleStyle="H5"/>
+				<Label text="HNo/Street" />
+				<Input type = "text">
+					<layoutData>
+						<l:GridData span="XL4 L2 M1 S2" />
+					</layoutData>
+				</Input>
+				<Input type = "text" />				
+				
+				<Label text="City/ZIP Code" />
+				<Input text="City" />
+				<Input type = "Number">
+					<layoutData>
+						<l:GridData span="XL2 L2 M3 S4" />
+					</layoutData>
+				</Input>
+				<Label text="Country" />
+				<ComboBox  placeholder= "Select Country">
+	<core:Item text = "India"/>
+	<core:Item text = "Germany"/>
+	<core:Item text = "America"/>
+	</ComboBox>
+	
+		<core:Title text="Present Address" level="H5" titleStyle="H5"/>
+				<Label text="HNo/Street" />
+				<Input type = "text">
+					<layoutData>
+						<l:GridData span="XL4 L2 M1 S2" />
+					</layoutData>
+				</Input>
+				<Input type = "text" />				
+				<Label text="City/ZIP Code" />
+				<Input text="City" />
+				<Input type = "Number" >
+					<layoutData>
+						<l:GridData span="XL2 L2 M3 S4" />
+					</layoutData>
+				</Input>
+				<Label text="Country" />
+				<ComboBox  placeholder= "Select Country">
+	<core:Item text = "India"/>
+	<core:Item text = "Germany"/>
+	<core:Item text = "America"/>
+	</ComboBox>	
+	</sf:SimpleForm>
+	</VBox>	
+	</Panel>
+	
+	<Panel id = "idPanel3" expandable = "true" headerText = "Upload Documents" expand = "getClose3">	
+	<sf:SimpleForm
+	editable="false"
+			layout="ResponsiveGridLayout"			
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="4"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="3"
+			emptySpanM="3"
+			emptySpanS="3"
+			columnsXL="3"
+			columnsL="2"
+			columnsM="2"
+			singleContainerFullSize="false">						
+	<core:Title/>
+	<Label text = "Upload Photo"/>
+	<u:FileUploader />
+	
+	<Label text = "Aadhar Card"/>
+    <u:FileUploader />
+    
+    <Label text = "Voter card"/>
+    <u:FileUploader />
+    <core:Title/>
+    <Label text = "PAN Card"/>
+    <u:FileUploader />
+    
+    <Label text = "Passport"/>
+    <u:FileUploader />
+    <Label text = "Scheme"/>
+    </sf:SimpleForm>
+	</Panel>
+	</content>
+	<footer>
+	
+	<Toolbar>
+	 <ToolbarSpacer/>
+	<Button text = "Register" type = "Emphasized" press = "getlogin"/>
+	<Button text = "Reset " type = "Reject" />
+	</Toolbar>
+	
+	</footer>
+	</Page>
+</core:View>

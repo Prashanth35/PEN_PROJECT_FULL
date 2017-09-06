@@ -1,0 +1,148 @@
+{
+"tileData1":[
+			{
+				"header":"Address",
+				"subheader":"Shop # 11, Global Enclave,OPP: Church,Usha Mullapudi Arch Road, Near : South Indian Shopping Mall KPHB. Hyderabad – 500072.",
+				"src":"image/sui5.jpg"
+				
+			},
+			{
+				"header":"Email",
+				"subheader":"rosh.038@gmail.com",
+				"src":"image/sui5.jpg"
+			},
+			{
+				"header":"Phone",
+				"subheader":"+91 8985459948",
+				"src":"image/sui5.jpg"
+			}
+		],
+"tileData":[
+			{
+				"header":"Payment History",
+				"subheader":"Check History",
+				"src":"image/sui5.jpg"
+				
+			},
+			{
+				"header":"Payment Status",
+				"subheader":"Check Status",
+				"src":"image/sui5.jpg"
+			}
+		],
+"yearHistoryData":[
+				{
+					"header":"2015",
+					"subheader":"Select this year",
+					"src":"image/ui5.png"
+				},
+				{
+					"header":"2016",
+					"subheader":"Select this year",
+					"src":"image/ui5.png"
+				},
+				{
+					"header":"2017",
+					"subheader":"Select this year",
+					"src":"image/ui5.png"
+				}
+			   ],
+"tableDataSet":[
+					{
+						"month":"Jan",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"Feb",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"March",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"April",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"May",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"June",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"July",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"Aug",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"Sep",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"October",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"November",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					},
+					{
+						"month":"December",
+						"amountPaid":"5000",
+						"date":"01/01/2015",
+						"finalStatus":"Recieved",
+						"totalIntrest":"2%",
+						"loanEligibilty":"Yes" 
+					}
+			   ]			   		
+}			

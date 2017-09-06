@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+         <Link href = "Css/main.css" rel = "stylesheet"/>
+		<!-- <script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script> -->
+		<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_belize">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+				sap.ui.localResources("zrosh_pen");
+				var app = new sap.m.App({initialPage:"idRegistration1"
+										 });
+				var page = sap.ui.view({id:"idRegistration1", viewName:"zrosh_pen.Registration", type:sap.ui.core.mvc.ViewType.XML});
+				app.addPage(page);
+				
+				 var page1 = sap.ui.view({
+					id : "idPage1",
+					viewName : "zrosh_pen.Login",
+					type : sap.ui.core.mvc.ViewType.XML
+				});
+				app.addPage(page1);
+				
+				var page2 = sap.ui.view({
+					id : "idPage2",
+					viewName : "zrosh_pen.Payment",
+					type : sap.ui.core.mvc.ViewType.XML
+				});
+				
+				var page = sap.ui.view({id:"idTile2", viewName:"zrosh_pen.Paymenthistory", type:sap.ui.core.mvc.ViewType.XML});
+				app.addPage(page);
+				var page = sap.ui.view({id:"idTablePage", viewName:"zrosh_pen.Table", type:sap.ui.core.mvc.ViewType.XML});
+				app.addPage(page);
+				 var page3 = sap.ui.view({id:"idContact", viewName:"zrosh_pen.contactus", type:sap.ui.core.mvc.ViewType.XML});
+				app.addPage(page3); 
+				app.addPage(page2);
+
+				app.placeAt("content");
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

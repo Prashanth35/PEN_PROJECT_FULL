@@ -1,0 +1,68 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:l="sap.ui.layout" xmlns:sf="sap.ui.layout.form"
+		controllerName="zrosh_pen.contactus" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Contact us">
+		
+		<sf:SimpleForm>
+		<sf:content>
+		
+		
+		<sf:SimpleForm>
+		<sf:content>
+		<FlexBox
+				width="95%"
+				class="columns"
+				alignItems="Stretch">
+				<items>
+					<Text class="column1" text="Although they have different amounts of text, both columns are of equal height.">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Text>
+				</items>
+			</FlexBox>
+		</sf:content>
+		</sf:SimpleForm>
+		
+		<sf:SimpleForm>
+		<sf:content>
+		<FlexBox
+				width="95%"
+				class="columns"
+				alignItems="Stretch">
+				<items>
+					<Text class="column1" text="Although they have different amounts of text, both columns are of equal height.">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Text>
+				</items>
+			</FlexBox>
+		
+		</sf:content>
+		</sf:SimpleForm>
+		
+		<sf:SimpleForm>
+		<sf:content>
+		<FlexBox
+				width="95%"
+				class="columns"
+				alignItems="Stretch">
+				<items>
+					<Text class="column1" text="Although they have different amounts of text, both columns are of equal height.">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Text>
+				</items>
+			</FlexBox>
+		
+		</sf:content>
+		</sf:SimpleForm>
+		
+		</sf:content>
+		</sf:SimpleForm>
+	<!-- <TileContainer id ="idContatcus" class = "conatct"/> -->
+		
+	</Page>
+</core:View>

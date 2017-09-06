@@ -1,0 +1,45 @@
+/* Background color of page */
+.sapMPage {
+    background-color: lightblue;    
+}
+
+ .sapMIBar-CTX .sapMTitle {
+   
+    font-weight: bold;
+    font-size: x-large;
+} 
+
+
+
+
+
+
+/* //Panel header text */ 
+.sapMPanel .sapMPanelWrappingDiv .sapMPanelHdr, .sapMPanel .sapMPanelWrappingDivTb .sapMIBar.sapMTB {
+    color: #2f3c48;
+}
+
+/* //panel Innertext */
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel, .sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel, .sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel, .sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel {
+
+    color :#4f667a;
+}
+
+/* //controls color */
+.sapMRb>.sapMLabel { 
+	color :#4f667a;
+}
+
+/* //Panel inside Title text color */
+.sapUiFormM .sapUiFormContainerTitle>.sapUiFormTitle {
+	
+	color : #ce8040;
+}
+
+}
+.column1 .sapMText {
+    overflow: hidden;
+    margin-left : 30px;
+}
+
+ 
